@@ -1,15 +1,30 @@
-.floating-box {
-    display: inline-block;
-    width: 20px;
-    height: 35px;
-    margin: 5px;
-    border: 3px solid #23A911;  
+:root {
+    --border-green: #23A911;
+    --bg-green:#73AD21;
+    --border-yellow: #d6c615;
+    --bg-yellow: #cfcf35;
+    --basic-height:25px;
 }
-.floating-box1 {
+.item-list {
     display: inline-block;
-    width: 20px;
-    height: 55px;
+    width: 15px;
+    height: var(--basic-height);
+    margin: 5px;
+    border: 3px solid var(--border-green);  
+}
+.item-list1 {
+    display: inline-block;
+    width: 15px;
+    height: calc(var(--basic-height) + 0px);
     margin: 3px;
-    background: #73AD21;
-    border: 3px solid #23A911;  
+    background: var(--bg-green);
+    border: 3px solid var(--border-green);  
+}
+.item-list2 {
+    display: inline-block;
+    width: 15px;
+    height: calc(var(--basic-height) + 10px);
+    margin: 3px;
+    background: var(--bg-yellow);
+    border: 3px solid var(--border-yellow);  
 }

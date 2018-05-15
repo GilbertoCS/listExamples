@@ -1,30 +1,42 @@
 :root {
-    --border-green: #23A911;
-    --bg-green:#73AD21;
-    --border-yellow: #d6c615;
-    --bg-yellow: #cfcf35;
-    --basic-height:25px;
+  --border-green: #23a911;
+  --bg-green: #73ad21;
+  --border-yellow: #d6c615;
+  --bg-yellow: #cfcf35;
+  --basic-height: 25px;
+  --bg-code: #575757;
+  --bg-button-haskell: #006100;
+  --bg-button-js: #4d5270;
 }
 .item-list {
-    display: inline-block;
-    width: 15px;
-    height: var(--basic-height);
-    margin: 5px;
-    border: 3px solid var(--border-green);  
+  display: inline-block;
+  width: 15px;
+  height: var(--basic-height);
+  margin: 5px;
+  border: 3px solid var(--border-green);
 }
 .item-list1 {
-    display: inline-block;
-    width: 15px;
-    height: calc(var(--basic-height) + 0px);
-    margin: 3px;
-    background: var(--bg-green);
-    border: 3px solid var(--border-green);  
+  display: inline-block;
+  width: 15px;
+  height: calc(var(--basic-height) + 0px);
+  margin: 3px;
+  background: var(--bg-green);
+  border: 3px solid var(--border-green);
 }
 .item-list2 {
-    display: inline-block;
-    width: 15px;
-    height: calc(var(--basic-height) + 10px);
-    margin: 3px;
-    background: var(--bg-yellow);
-    border: 3px solid var(--border-yellow);  
+  display: inline-block;
+  width: 15px;
+  height: calc(var(--basic-height) + 10px);
+  margin: 3px;
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.background-code {
+  background: var(--bg-code);
+}
+.background-button-haskell {
+  background: var(--bg-button-haskell);
+}
+.background-button-js {
+  background: var(--bg-button-js);
 }

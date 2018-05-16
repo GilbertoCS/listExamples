@@ -8,26 +8,55 @@
   --bg-button-haskell: #006100;
   --bg-button-js: #4d5270;
 }
-.item-list {
+
+.base-item-list {
   display: inline-block;
   width: 15px;
-  height: var(--basic-height);
   margin: 5px;
-  border: 3px solid var(--border-green);
+  height: var(--basic-height);
 }
-.item-list1 {
-  display: inline-block;
-  width: 15px;
-  height: calc(var(--basic-height) + 0px);
-  margin: 3px;
+.item-list-0 {
+  /* height: calc(var(--basic-height) + 0px); */
   background: var(--bg-green);
   border: 3px solid var(--border-green);
 }
-.item-list2 {
-  display: inline-block;
-  width: 15px;
-  height: calc(var(--basic-height) + 10px);
-  margin: 3px;
+.item-list-1 {
+  height: calc(var(--basic-height) + 2px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-2 {
+  height: calc(var(--basic-height) + 3px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-3 {
+  height: calc(var(--basic-height) + 4px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-4 {
+  height: calc(var(--basic-height) + 5px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-5 {
+  height: calc(var(--basic-height) + 6px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-6 {
+  height: calc(var(--basic-height) + 7px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-7 {
+  height: calc(var(--basic-height) + 8px);
+  background: var(--bg-yellow);
+  border: 3px solid var(--border-yellow);
+}
+.item-list-8 {
+  height: calc(var(--basic-height) + 9px);
   background: var(--bg-yellow);
   border: 3px solid var(--border-yellow);
 }
@@ -35,8 +64,10 @@
   background: var(--bg-code);
 }
 .background-button-haskell {
+  color: white;
   background: var(--bg-button-haskell);
 }
 .background-button-js {
+  color: white;
   background: var(--bg-button-js);
 }

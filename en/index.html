@@ -11,31 +11,41 @@
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-
   gtag('config', 'UA-119150520-1');
 </script>
 
-<link rel="stylesheet" href="../css/listas.css">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-
 <script type="text/javascript">
+  /* Main CSS File */
+  var mainCSSFile = document.createElement('link');
+  mainCSSFile.rel = 'stylesheet';
+  mainCSSFile.href = '../css/listas.css';
+  mainCSSFile.type = 'text/css';
+  var godefer = document.getElementsByTagName('link')[0];
+  godefer.parentNode.insertBefore(mainCSSFile, godefer);
+
   /* First CSS File */
   var firstCSSFile = document.createElement('link');
   firstCSSFile.rel = 'stylesheet';
   firstCSSFile.href = 'https://www.w3schools.com/w3css/4/w3.css';
   firstCSSFile.type = 'text/css';
-  var godefer = document.getElementsByTagName('link')[0];
-  godefer.parentNode.insertBefore(firstCSSFile, godefer);
+  var godefer1 = document.getElementsByTagName('link')[0];
+  godefer1.parentNode.insertBefore(firstCSSFile, godefer1);
 
   /* Second CSS File */
   var secondCSSFile = document.createElement('link');
   secondCSSFile.rel = 'stylesheet';
-  secondCSSFile.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+  secondCSSFile.href = 'https://fonts.googleapis.com/css?family=Roboto';
   secondCSSFile.type = 'text/css';
   var godefer2 = document.getElementsByTagName('link')[0];
   godefer2.parentNode.insertBefore(secondCSSFile, godefer2);
+
+  /* Third CSS File */
+  var thirdCSSFile = document.createElement('link');
+  thirdCSSFile.rel = 'stylesheet';
+  thirdCSSFile.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+  thirdCSSFile.type = 'text/css';
+  var godefer3 = document.getElementsByTagName('link')[0];
+  godefer3.parentNode.insertBefore(thirdCSSFile, godefer3);
 </script>
 
 <style>
@@ -155,7 +165,7 @@
     <!-- End Page Container -->
   </div>
 
-  <footer class="w3-container w3-teal w3-center w3-margin-top">
+  <footer class="w3-container w3-dark-gray w3-center w3-margin-top">
     <p>Contato</p>
     <p>Powered by
       <a href="https://www.w3schools.com/w3css/default.asp" rel="noopener">w3.css</a>

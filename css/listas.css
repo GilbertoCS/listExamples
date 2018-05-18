@@ -1,8 +1,18 @@
 :root {
-  --border-green: #23a911;
-  --bg-green: #73ad21;
-  --border-yellow: #d6c615;
+  --border-red: #800000; /* do */
+  --bg-red: red;
+  --border-orange: #ff8000; /* re */
+  --bg-orange: orange;
+  --border-yellow: #d6c615; /* mi */
   --bg-yellow: #cfcf35;
+  --border-green: #23a911; /* fa */
+  --bg-green: #73ad21;
+  --border-blue: #0000a0; /* sol */
+  --bg-blue: blue;
+  --border-indigo: #800080; /* la */
+  --bg-indigo: indigo;
+  --border-violet: #ff00ff; /* si */
+  --bg-violet: violet;
   --basic-height: 25px;
   --bg-code: #575757;
   --bg-button-haskell: #006100;
@@ -18,13 +28,13 @@
 }
 .item-list-0 {
   /* height: calc(var(--basic-height) + 0px); */
-  background: var(--bg-green);
-  border: 3px solid var(--border-green);
+  background: var(--bg-red);
+  border: 3px solid var(--border-red);
 }
 .item-list-1 {
   height: calc(var(--basic-height) + 2px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
+  background: var(--bg-orange);
+  border: 3px solid var(--border-orange);
 }
 .item-list-2 {
   height: calc(var(--basic-height) + 3px);
@@ -33,33 +43,23 @@
 }
 .item-list-3 {
   height: calc(var(--basic-height) + 4px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
+  background: var(--bg-green);
+  border: 3px solid var(--border-green);
 }
 .item-list-4 {
   height: calc(var(--basic-height) + 5px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
+  background: var(--bg-blue);
+  border: 3px solid var(--border-blue);
 }
 .item-list-5 {
   height: calc(var(--basic-height) + 6px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
+  background: var(--bg-indigo);
+  border: 3px solid var(--border-indigo);
 }
 .item-list-6 {
   height: calc(var(--basic-height) + 7px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
-}
-.item-list-7 {
-  height: calc(var(--basic-height) + 8px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
-}
-.item-list-8 {
-  height: calc(var(--basic-height) + 9px);
-  background: var(--bg-yellow);
-  border: 3px solid var(--border-yellow);
+  background: var(--bg-violet);
+  border: 3px solid var(--border-violet);
 }
 .background-code {
   background: var(--bg-code);

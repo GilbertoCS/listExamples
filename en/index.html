@@ -5,15 +5,8 @@
 <meta name="description" content="Visual examples of the results of functions that use lists.">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119150520-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'UA-119150520-1');
-</script>
-<link rel="stylesheet" >
+
+<link rel="stylesheet">
 
 <script type="text/javascript">
   /* Main CSS File */
@@ -76,6 +69,7 @@
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-16">
             <i class="fa fa-ellipsis-h fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Basics</h2>
+          <!-- example 1 -->
           <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
             <div class="w3-row-padding w3-padding">
               <div class="w3-third">
@@ -83,15 +77,13 @@
                   <div class="base-item-list item-list-0">1</div>
                   <div class="base-item-list item-list-1">2</div>
                   <div class="base-item-list item-list-2">3</div>
-                  <div class="base-item-list item-list-3">4</div>
                 </div>
                 <h1>
                 </h1>
                 <div class="w3-card">
+                  <div class="base-item-list item-list-3">4</div>
                   <div class="base-item-list item-list-4">5</div>
                   <div class="base-item-list item-list-5">6</div>
-                  <div class="base-item-list item-list-6">7</div>
-                  <div class="base-item-list item-list-7">8</div>
                 </div>
               </div>
               <div class="w3-third">
@@ -106,8 +98,6 @@
                 <div class="base-item-list item-list-3">4</div>
                 <div class="base-item-list item-list-4">5</div>
                 <div class="base-item-list item-list-5">6</div>
-                <div class="base-item-list item-list-6">7</div>
-                <div class="base-item-list item-list-7">8</div>
               </div>
             </div>
             <div>
@@ -118,11 +108,12 @@
               </h6>
             </div>
             <div class="w3-card-2 background-code w3-margin-bottom">
-              <h4 id="code_haskell_ex1" class="w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
-              <h4 id="code_python_ex1" class="w3-hide w3-text-white w3-margin">[1,2,3,4].append([5,6,7,8]) == [1,2,3,4,5,6,7,8]</h4>
-              <h4 id="code_js_ex1" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
+              <h4 id="code_haskell_ex1" class="w3-text-white w3-margin">[1,2,3] ++ [4,5,6] == [1,2,3,4,5,6]</h4>
+              <h4 id="code_python_ex1" class="w3-hide w3-text-white w3-margin">[1,2,3].append([4,5,6]) == [1,2,3,4,5,6]</h4>
+              <h4 id="code_js_ex1" class="w3-hide w3-text-white w3-margin">[1,2,3] ++ [4,5,6] == [1,2,3,4,5,6]</h4>
             </div>
           </div>
+          <!-- example 2 -->
           <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
             <div class="w3-row-padding w3-padding">
               <div class="w3-third">
@@ -152,8 +143,41 @@
             <div class="w3-card-2 background-code w3-margin-bottom">
               <h4 id="code_haskell_ex_2" class="w3-text-white w3-margin">head [1,2,3,4] == 1
                 <br> [1,2,3,4] !! 0 == 1 </h4>
-              <h4 id="code_python_ex_2" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
-              <h4 id="code_js_ex_2" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
+              <h4 id="code_python_ex_2" class="w3-hide w3-text-white w3-margin">[1,2,3,4][0]  ==  1</h4>
+              <h4 id="code_js_ex_2" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == 1</h4>
+            </div>
+          </div>
+          <!-- example 3 -->
+          <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
+            <div class="w3-row-padding w3-padding">
+              <div class="w3-third">
+                <div class="w3-card">
+                  <div class="base-item-list item-list-0">1</div>
+                  <div class="base-item-list item-list-1">2</div>
+                  <div class="base-item-list item-list-2">3</div>
+                  <div class="base-item-list item-list-3">4</div>
+                </div>
+              </div>
+              <div class="w3-third">
+                <h1 class="w3-margin-left w3-padding-large">
+                  <i class="fa fa-arrow-circle-right w3-xxlarge w3-text-teal"></i>
+                </h1>
+              </div>
+              <div class="w3-third w3-card">
+                <div class="base-item-list item-list-3">4</div>
+              </div>
+            </div>
+            <div>
+              <h6 class="w3-center">
+                <button class="w3-btn background-button-haskell w3-round">Haskell</button>
+                <button class="w3-btn w3-dark-grey w3-round">Python</button>
+                <button class="w3-btn background-button-js w3-round">JS</button>
+              </h6>
+            </div>
+            <div class="w3-card-2 background-code w3-margin-bottom">
+              <h4 id="code_haskell_ex_3" class="w3-text-white w3-margin">last [1,2,3,4] == 4</h4>
+              <h4 id="code_python_ex_3" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
+              <h4 id="code_js_ex_3" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
             </div>
           </div>
         </div>
@@ -174,5 +198,13 @@
   </footer>
 
 </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119150520-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-119150520-1');
+</script>
 
 </html>

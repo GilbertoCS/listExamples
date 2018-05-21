@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="manifest" href="/manifest.json">
 <link rel="stylesheet">
 
 <script type="text/javascript">
@@ -176,10 +177,46 @@
             </div>
             <div class="w3-card-2 background-code w3-margin-bottom">
               <h4 id="code_haskell_ex_3" class="w3-text-white w3-margin">last [1,2,3,4] == 4</h4>
-              <h4 id="code_python_ex_3" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
+              <h4 id="code_python_ex_3" class="w3-hide w3-text-white w3-margin">[1,2,3,4][-1] == 4</h4>
               <h4 id="code_js_ex_3" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
             </div>
           </div>
+        </div>
+        <!-- example 4 -->
+        <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
+          <div class="w3-row-padding w3-padding">
+            <div class="w3-third">
+              <div class="w3-card">
+                <div class="base-item-list item-list-0">1</div>
+                <div class="base-item-list item-list-1">2</div>
+                <div class="base-item-list item-list-2">3</div>
+                <div class="base-item-list item-list-3">4</div>
+              </div>
+            </div>
+            <div class="w3-third">
+              <h1 class="w3-margin-left w3-padding-large">
+                <i class="fa fa-arrow-circle-right w3-xxlarge w3-text-teal"></i>
+              </h1>
+            </div>
+            <div class="w3-third w3-card">
+              <div class="base-item-list item-list-1">2</div>
+              <div class="base-item-list item-list-2">3</div>
+              <div class="base-item-list item-list-3">4</div>
+            </div>
+          </div>
+          <div>
+            <h6 class="w3-center">
+              <button class="w3-btn background-button-haskell w3-round">Haskell</button>
+              <button class="w3-btn w3-dark-grey w3-round">Python</button>
+              <button class="w3-btn background-button-js w3-round">JS</button>
+            </h6>
+          </div>
+          <div class="w3-card-2 background-code w3-margin-bottom">
+            <h4 id="code_haskell_ex_4" class="w3-text-white w3-margin">tail [1,2,3,4] == [2,3,4]</h4>
+            <h4 id="code_python_ex_4" class="w3-hide w3-text-white w3-margin">[1,2,3,4][1::] == [2,3,4]</h4>
+            <h4 id="code_js_ex_4" class="w3-hide w3-text-white w3-margin">[1,2,3,4] ++ [5,6,7,8] == [1,2,3,4,5,6,7,8]</h4>
+          </div>
+        </div>
         </div>
         <!-- End Right Column -->
       </div>
